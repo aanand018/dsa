@@ -121,3 +121,28 @@ public class LL {
 
     }
 }
+
+/*
+OUTPUT :--
+
+
+--------------- add First -----------------------
+
+i am  -> anand -> null
+
+--------------- add last -----------------------
+
+i am  -> anand -> aa -> bb -> null
+
+--------------- delete First -----------------------
+
+anand -> aa -> bb -> null
+
+--------------- delete last -----------------------
+
+   */ 
+
+anand -> aa -> null
+
+
+Process finished with exit code 0
