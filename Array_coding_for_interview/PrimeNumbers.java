@@ -6,16 +6,11 @@ public class PrimeNumbers {
         int[] findPrime = {1, 2, 3, 4, 5, 6, 7, 8};
 
      for( int num : findPrime ) {
-         int c=0;
-         for (int i = 1; i <= num; i++) {
+         for (int i = 2; i*i <= num; i++) {
 
-             if (num % i == 0){
-                 c+=1;
-
-             }
-         }
-         if(c == 2) {
-             System.out.println(num);
+             if (num % i == 0) {
+                 System.out.println(num+ " is not prime number");
+             }else System.out.println(num+" is prime number ");
          }
      }
 
